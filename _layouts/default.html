@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+        <title>
+            rubato
+            {% if page.title %}
+                 {{ page.title }}
+            {% endif %}
+        </title>
+    </head>
+    <body>
+        {% include topbar.html %}
+        {{ content }}
+        {% include footer.html %}
+    </body>
+</html>

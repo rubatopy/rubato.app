@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap");
+
+* {
+    font-family: "Fredoka", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    background-color: rgb(20, 20, 22);
+}
+
+body {
+    background-color: rgb(20, 20, 22);
+    overflow-x: hidden;
+
+    /* remove scrollbars */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    /* remove scrollbars */
+    display: none;
+}
+
+.back-black {
+    background-color: rgb(20, 20, 22);
+}
+
+.back-night {
+    background-color: rgb(26, 28, 30);
+}
+
+.text-red {
+    color: rgb(255, 148, 132) !important;
+}
+
+.small-line {
+    max-width: 4rem;
+}
+
+hr {
+    border: 1px solid rgb(255, 148, 132);
+}
+
+a:focus,
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.no-select,
+br,
+img,
+a,
+footer {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
+*::selection {
+    background: rgba(150, 99, 92, 0.8); /* WebKit/Blink Browsers */
+}
+
+*::-moz-selection {
+    background: rgba(150, 99, 92, 0.8); /* Gecko Browsers */
+}
