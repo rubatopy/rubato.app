@@ -1,21 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        {% include head.html %}
-        <title>
-            rubato
-            {% if page.title %}
-                - {{ page.title }}
-            {% endif %}
-        </title>
-    </head>
-    <body >
-        {% include topbar.html %}
-        <div class="jumbotron jumbotron-fluid text-white back-black container">
-            <h1 class="font-weight-bold">{{ page.title }}</h1>
-            <p>Published on {{ page.date | date_to_string: "ordinal", "US" }} by {{ page.author }}</p>
-            {{ content }}
-        </div>
-        {% include footer.html %}
-    </body>
-</html>
+---
+layout: default
+---
+
+<h1 class="display-4 fw-bold">{{ page.title }}</h1>
+{% if page.subtitle %}
+<h2 class="text-muted">{{ page.subtitle }}</h2>
+{% endif %} {{ content }}

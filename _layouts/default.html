@@ -2,16 +2,11 @@
 <html lang="en">
     <head>
         {% include head.html %}
-        <title>
-            rubato
-            {% if page.title %}
-                 {{ page.title }}
-            {% endif %}
-        </title>
+        <title>{% if page.title %} {{ page.title }} -{% endif %} rubato</title>
     </head>
     <body>
         {% include topbar.html %}
-        {{ content }}
+        <div class="container py-5 mb-2 text-white back-black">{{ content }}</div>
         {% include footer.html %}
     </body>
 </html>

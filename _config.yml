@@ -22,6 +22,7 @@ description: rubato is a modern tool for designing 2D games and physics simulati
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rubato.app" # the base hostname & protocol for your site, e.g. http://example.com
 port: 8000
+incremental: true
 plugins:
     - jekyll-seo-tag
     - jekyll-sitemap
