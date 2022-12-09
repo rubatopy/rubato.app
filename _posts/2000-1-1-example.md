@@ -11,10 +11,6 @@ cover: https://t4.ftcdn.net/jpg/02/09/65/05/360_F_209650573_aqlaXMxoBDMaXck0WQmn
 
 have you ever wondered... deez nuts
 
-![wow](https://j.gifs.com/vQ8EzL.gif){: width="50%" .align-center }
-
-<!-- the info included in {: } is html stuff that is added directly to the image tag -->
-
 ## This is a section header
 
 wowo im explaining the code
