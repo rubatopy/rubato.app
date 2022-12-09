@@ -15,6 +15,7 @@ have you ever wondered... deez nuts
 
 wowo im explaining the code
 
+<!--
 ```python
 import rubato as rb
 
@@ -25,6 +26,6 @@ def foo():
 bar = 10
 foo()
 print(bar)
-```
+``` -->
 
-> This is a blockquote
+<!-- > This is a blockquote -->
