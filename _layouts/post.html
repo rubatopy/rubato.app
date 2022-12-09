@@ -2,7 +2,18 @@
 layout: default
 ---
 
-<h1 class="display-4 fw-bold">{{ page.title }}</h1>
-{% if page.subtitle %}
-<h2 class="text-muted">{{ page.subtitle }}</h2>
-{% endif %} {{ content }}
+<div class="container p-5 mb-2 text-white rounded-3" style="background-color: #19191a">
+    <h1 class="display-4 fw-bold">{{ page.title }}</h1>
+    {% if page.subtitle %}
+        <h2 class="text-muted">{{ page.subtitle }}</h2>
+    {% endif %}
+    {% assign author = site.data.authors[page.author] %}
+    <i>
+        {% if author %}
+            <strong>by {{ author.name }}</strong>
+        {% else %}
+            published
+        {% endif %}on {{ page.date | date_to_string: "ordinal", "US" }}
+    </i>
+    {{ content }}
+</div>
