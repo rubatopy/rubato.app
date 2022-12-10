@@ -3,9 +3,8 @@
 layout: post
 title: Example Blog Post
 subtitle: Have you ever wondered how to make a post?
-description: This is an example post
+description: This is an example post. In the description, you should describe what you are talking about in the rest of the article.
 author: martin
-tags: example code wow
 cover: https://t4.ftcdn.net/jpg/02/09/65/05/360_F_209650573_aqlaXMxoBDMaXck0WQmnBryltJIwpK6F.jpg
 ---
 

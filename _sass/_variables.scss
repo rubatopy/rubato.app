@@ -40,7 +40,7 @@ $blue:    #0d6efd !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
-$red:     #d9534f !default;
+$red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
 $green:   #198754 !default;
@@ -298,14 +298,14 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
-$success:       $green !default;
-$info:          $cyan !default;
-$warning:       $yellow !default;
-$danger:        $red !default;
+$primary:       #ff9484 !default;
+$secondary:     #8e8c84 !default;
+$success:       #00c852 !default;
+$info:          #00b0ff !default;
+$warning:       #ff9100 !default;
+$danger:        #ff5252 !default;
 $light:         $gray-100 !default;
-$dark:          $gray-900 !default;
+$dark:          #1a1c1e !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -618,7 +618,7 @@ $small-font-size:             .875em !default;
 
 $sub-sup-font-size:           .75em !default;
 
-$text-muted:                  #8e8c84 !default;
+$text-muted:                  $gray-600 !default;
 
 $initialism-font-size:        $small-font-size !default;
 
