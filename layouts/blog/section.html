@@ -5,8 +5,7 @@
 
 <div class="container py-5 mb-2 text-white back-black">
     <div class="row row-cols-3">
-        {{ range .Paginator.Pages }}
-        <div class="col">
+        {{ range where .Paginator.Pages "PublishDate" "<=" now }} <div class="col">
             <a href="{{ .Permalink }}">
                 <div class="card back-black border-0 rounded-lg text-white">
                     <img src="/{{ .File.Dir }}img/cover.png" class="card-img-top">
@@ -28,9 +27,9 @@
                     </div>
                 </div>
             </a>
-        </div>
-        {{ end }}
     </div>
+    {{ end }}
+</div>
 </div>
 
 {{ end }}
