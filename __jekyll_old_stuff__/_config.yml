@@ -33,6 +33,7 @@ defaults:
           path: "assets/img/covers/*.png"
       values:
           cover: true
+future: true
 bar: "<div class='small-line mx-auto'><hr /></div>"
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -29,8 +29,8 @@ Finally, to locally host the project:
 bundle exec jekyll serve
 ```
 
-or to see future and draft posts:
+or to see and draft posts:
 
 ```
-bundle exec jekyll serve --future --drafts
+bundle exec jekyll serve --drafts
 ```

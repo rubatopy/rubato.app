@@ -1,0 +1,16 @@
+current directory: /home/martin/Coding/rubato.app/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+/usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /home/martin/Coding/rubato.app/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20221229-6617-40wi76 sitelibdir\=./.gem.20221229-6617-40wi76 clean
+
+current directory: /home/martin/Coding/rubato.app/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20221229-6617-40wi76 sitelibdir\=./.gem.20221229-6617-40wi76
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: /home/martin/Coding/rubato.app/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20221229-6617-40wi76 sitelibdir\=./.gem.20221229-6617-40wi76 install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20221229-6617-40wi76

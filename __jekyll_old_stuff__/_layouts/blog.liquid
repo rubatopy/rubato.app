@@ -9,7 +9,8 @@ title: blog
 
 <div class="container py-5 mb-2 text-white back-black">
     <div class="row row-cols-3">
-        {% for post in site.posts %}
+        {% assign posts = site.posts | where: "future", false %}
+        {% for post in posts %}
             <div class="col">
                 <a href="{{ post.url }}">
                     <div class="card back-black border-0 rounded-lg text-white">
