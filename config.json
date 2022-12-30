@@ -1,0 +1,10 @@
+{
+    "baseURL": "https://rubato.app/",
+    "languageCode": "en-us",
+    "title": "rubato",
+    "buildFuture": true,
+    "disableKinds": ["taxonomy", "term", "RSS"],
+    "enableEmoji": true,
+    "enableRobotsTXT": true,
+    "publishDir": "public"
+}

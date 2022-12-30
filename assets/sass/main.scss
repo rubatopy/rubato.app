@@ -1,5 +1,3 @@
----
----
 // Global stuff
 * {
     text-rendering: optimizeLegibility;
@@ -8,7 +6,7 @@
 }
 
 // Bootstrap modifications
-@import "bootstrap";
+@import "bootstrap/bootstrap";
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap");
 
 .breadcrumb, .btn, .dropdown-menu .dropdown-item, .nav-pills .nav-link, .nav-tabs .nav-link, .navbar .nav-link, .pagination, .sandstone, .tooltip {

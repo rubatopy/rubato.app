@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-lg-7 px-lg-5 px-3 py-5 mb-2 text-white rounded-3" style="background-color: #19191a">
+            <img src="img/cover.png" class="w-75 d-block mx-auto mb-5" />
+            <h1 class="display-4 fw-bold">{{ .Title }}</h1>
+            {{ with .Params.subtitle }}
+            <h2 class="text-secondary">{{ . }}</h2>
+            {{ end }}
+            <div>
+                {{ with .Params.author }}
+                <strong>by {{ . }}</strong>
+                {{ else }}
+                published
+                {{ end }}
+                on {{ .PublishDate.Format "02 January 2006" }}
+            </div>
+            <div class="mt-3">{{ .Content }}</div>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
+
+{{ end }}
