@@ -3,7 +3,9 @@ layout: default
 title: blog
 ---
 
-<h1 class="text-white text-center">Welcome to the rubato blog. Content coming soon.</h1>
+{% assign covers = site.static_files | where: "cover", true %}
+<h1 class="text-white text-center">rubato blog</h1>
+<div class="text-muted text-center">Here we post various articles, how-tos, release announcements and more!</div>
 
 <div class="container py-5 mb-2 text-white back-black">
     <div class="row row-cols-3">
@@ -11,9 +13,9 @@ title: blog
             <div class="col">
                 <a href="{{ post.url }}">
                     <div class="card back-black border-0 rounded-lg text-white">
-                        {% if post.cover %}
-                            <img src="{{ post.cover }}" class="card-img-top">
-                        {% endif %}
+                        {% assign post_date = post.date | date: "%Y-%m-%d" %}
+                        {% assign post_cover = covers | where: "basename", post_date | first %}
+                        <img src="{{ post_cover.path }}" class="card-img-top" />
                         <div class="card-body">
                             <h5 class="card-title">
                                 <strong>{{ post.title }}</strong>

@@ -1,11 +1,12 @@
 ---
 # The file name follows the format YEAR-MONTH-DAY-short-title.md
+# For the blog to have a cover, it must be in the assets/img/covers folder with the name of the file as YEAR-MONTH-DAY.png
+# The cover image must be 800x533 and should be passed through pngcrush
 layout: post
 title: Example Blog Post
 subtitle: Have you ever wondered how to make a post?
 description: This is an example post. In the description, you should describe what you are talking about in the rest of the article.
 author: martin
-cover: https://t4.ftcdn.net/jpg/02/09/65/05/360_F_209650573_aqlaXMxoBDMaXck0WQmnBryltJIwpK6F.jpg
 ---
 
 have you ever wondered... deez nuts

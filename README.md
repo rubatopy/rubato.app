@@ -11,12 +11,13 @@ Draft posts are in the `_drafts` folder. In this folder is a markdown example to
 To get started, first install the latest version of ruby. Then run this command:
 
 ```shell
-gem install jekyll bundler
+gem install bundler
 ```
 
 Next in the project directory run:
 
 ```
+bundle config set --local path 'vendor/bundle'
 bundle install
 ```
 

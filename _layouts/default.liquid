@@ -2,7 +2,7 @@
 <html lang="en">
 
     <head>
-        {% include head.html %}
+        {% include head.liquid %}
         <title>
             {% if page.title %}
                 {{ page.title }} -{% endif %}
@@ -11,9 +11,9 @@
 
     <body>
         <div class="d-flex flex-column" style="min-height: 100vh;">
-            <div>{% include topbar.html %}</div>
+            <div>{% include topbar.liquid %}</div>
             <div class="flex-grow-1">{{ content }}</div>
-            <div>{% include footer.html %}</div>
+            <div>{% include footer.liquid %}</div>
         </div>
     </body>
 
