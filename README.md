@@ -4,7 +4,7 @@ This is the main site + the blog site. Anything here will be published to rubato
 
 ### Development info
 
-This project uses a Jekyll with a themed bootstrap 4.
+This project uses a Jekyll with a themed bootstrap 5.
 
 Draft posts are in the `_drafts` folder. In this folder is a markdown example to show you how to make a post. Post files' names follow the format `YEAR-MONTH-DAY-short-title.md`. Once a post is ready, move it to the `_posts` folder and it will get automatically published at the date specified.
 
