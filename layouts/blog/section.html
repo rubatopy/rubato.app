@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<h1 class="text-white text-center">rubato blog</h1>
+<div class="text-muted text-center">Here we post various articles, how-tos, release announcements and more!</div>
+
+<div class="container py-5 mb-2 text-white back-black">
+    <div class="row row-cols-3">
+        {{ range .Paginator.Pages }}
+        <div class="col">
+            <a href="{{ .Permalink }}">
+                <div class="card back-black border-0 rounded-lg text-white">
+                    <img src="/{{ .File.Dir }}img/cover.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <strong>{{ .Title }}</strong>
+                        </h5>
+                        <p class="card-text">
+                            {{ .Description }}
+                        </p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <i>
+                            {{ with .Params.author }}
+                            {{ . }} -
+                            {{ end }}
+                            {{ .PublishDate.Format "02 January 2006" }}
+                        </i>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+{{ end }}

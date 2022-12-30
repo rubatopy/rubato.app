@@ -1,10 +1,10 @@
 ---
-layout: post
 title: "Introducing rubato"
 subtitle: "The Modern 2D Game Engine for Python"
 description:
     "After many months of development, we are thrilled to announce the first stable release of our groundbreaking 2D
     game engine for Python!"
+publishdate: 2022-12-31 # YYYY-MM-DD
 ---
 
 Get ready to revolutionize your game building experience with rubato! Whether you're a beginner just starting out in
@@ -20,7 +20,7 @@ With an intuitive design, powerful features, and comprehensive documentation, ru
 process and empowers users to achieve their creative goals. Heard enough? Get started
 [here](https://docs.rubato.app/latest/intro) and learn how to start using rubato today!
 
-{{ site.bar }}
+{{< horibar >}}
 
 ## Powerful Features Out of the Box
 
