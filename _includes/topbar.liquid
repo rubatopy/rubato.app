@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark back-black px-2">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
             {% assign logo = site.static_files | where_exp: "file", "file.name == 'full.png'" %}
             <img
                 src="{{ logo.first.path }}"
