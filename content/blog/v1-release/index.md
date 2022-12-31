@@ -4,7 +4,7 @@ subtitle: "The Modern 2D Game Engine for Python"
 description:
     "After many months of development, we are thrilled to announce the first stable release of our groundbreaking 2D
     game engine for Python!"
-publishdate: 2022-12-31 # YYYY-MM-DD
+publishdate: 2022-12-31T09:00:00-08:00 # YYYY-MM-DD
 ---
 
 Get ready to revolutionize your game building experience with rubato! Whether you're a beginner just starting out in
